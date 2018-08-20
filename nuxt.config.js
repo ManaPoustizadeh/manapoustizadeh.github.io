@@ -11,7 +11,7 @@ module.exports = {
       link: [
         {
           rel: 'stylesheet',
-          href: 'https://fonts.googleapis.com/css?family=Kirang+Haerang'
+          href: 'https://fonts.googleapis.com/css?family=Lato:100,300,400|Montserrat:100,200,300,400|Open+Sans:300,400'
         }
       ]
     },

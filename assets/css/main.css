@@ -1,3 +1,12 @@
 body {
     scroll-behavior: smooth;
+    height: 100vh;
+    font-family:  'Lato', 'Open Sans', 'Montserrat', sans-serif;
 }
+::-webkit-scrollbar {
+  width: 0px;
+  /* remove scrollbar space */
+  background: transparent;
+  /* optional: just make scrollbar invisible */
+}
+

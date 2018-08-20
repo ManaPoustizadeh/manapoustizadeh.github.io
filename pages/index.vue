@@ -1,13 +1,13 @@
 <template>
-  <section class="foreground">
+  <div @scroll="handleScroll" class="foreground">
       <Cover :headlines="headlines"/>
-      <Navigation-panel :menus="sections"/>
-      <div class="content">
+      <Navigation-panel :fixed="fixed" :menus="sections"/>
+      <div :class="{content: true, fixedTop: fixed}">
         <EducationSection :educationRecords="educationRecords" />
         <TeachingSection :TARecords="TARecords" />
         <ContactSection :contacts="contacts" />
       </div>
-  </section>
+  </div>
 </template>
 
 <script>
@@ -18,6 +18,13 @@ import EducationSection from '~/components/EducationSection';
 import ContactSection from '~/components/ContactSection';
 import records from '~/static/records.json';
 export default {
+  head () {
+    return {
+      link: [
+        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Lato:100,300,400|Montserrat:100,200,300,400|Open+Sans:300,400' }
+      ]
+    } 
+  },
   components: {
     Cover,
     NavigationPanel,
@@ -42,8 +49,21 @@ export default {
       educationRecords: records.Education,
       TARecords: records.Teaching,
       contacts: records.Contact,
+      fixed: false,
     }
-  }
+  },
+  methods: {
+    handleScroll(e){
+      console.log('====================================');
+      console.log(e.target.scrollTop);
+      if(e.target.scrollTop > 394 && !this.fixed)
+        this.fixed = true;
+      if(e.target.scrollTop <= 394 && this.fixed)
+        this.fixed = false;
+      console.log(this.fixed);
+      console.log('====================================');
+    }
+  },
 }
 </script>
 <style scoped>
@@ -53,9 +73,17 @@ export default {
     position: relative;
     background: black;
     padding-top: 10rem;
+    font-family: 'Lato';
+    overflow-y: auto;
   }
   .content {
     padding: 0.5rem;
+    margin-top: 7rem;
+    transition: 0.5s ease;
+  }
+  .fixedTop {
+    margin-top: 13.5rem;
+    transition: 0.5s ease;
   }
   .card-text {
     min-height: 400px;

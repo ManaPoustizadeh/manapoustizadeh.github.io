@@ -23,6 +23,7 @@ export default {
 <style scoped>
     .card-text {
         min-height: 400px;
+        font-family: 'Lato';
     }
 </style>
 

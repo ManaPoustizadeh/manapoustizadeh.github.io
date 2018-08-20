@@ -1,5 +1,5 @@
 <template>
-    <div class="panel">
+    <div :class="{panel: true, fixed: isFixed }">
         <a v-for="menu in menus" :href="menu.route" :key="menu.name">
             <div class="menu-item">
                 <fa :icon="menu.icon" size="2x"></fa>
@@ -24,11 +24,20 @@
     .panel {
         color: #efefef;
         display: flex;
+        flex-wrap: wrap;
+        z-index: 6;
+        position: absolute;
         align-items: center;
         justify-content: space-around;
         padding: 1rem;
         background: #202020;
         width: 100%;
+    }
+    .fixed {
+        position: fixed;
+        top: 0; 
+        right: 0;
+        left: 0;
     }
     .name {
         /* margin-top: 0.5rem; */
@@ -53,10 +62,16 @@ import { fas } from '@fortawesome/free-solid-svg-icons';
 export default {
     props: {
         menus: Array,
+        fixed: Boolean,
     },
     computed: {
         fas() {
             return fas
+        },
+        isFixed() {
+            if (this.fixed !== null) {
+                return this.fixed
+            }
         }
     }
 }
