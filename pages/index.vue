@@ -26,11 +26,6 @@ export default {
     EducationSection,
     ContactSection,
   }, 
-  computed: {
-    fas() {
-      return fas
-    }
-  },
   data: () => {
     let headlines = [
         'Hardware Student, Web Developer, UX Designer'

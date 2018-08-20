@@ -63,24 +63,28 @@
         {
             "title": "Email",
             "type": "mail",
+            "icon": "envelope",
             "value": "mana@aut.ac.ir",
             "url": "mailto:mana%40aut.ac.ir"
         },
         {
             "title": "Email",
             "type": "mail",
+            "icon": "envelope",
             "value": "mana0pst@gmail.com",
             "url": "mailto:mana0pst%40gmail.com"
         },
         {
             "title": "Cellphone Number",
             "type": "phone",
+            "icon": "phone",
             "hidden": false,
             "value": "+98 919 377 72 64"
         },
         {
             "title": "Home Number",
             "type": "phone",
+            "icon": "phone",
             "hidden": true,
             "value": "+98 21 265 475 16",
             "url": "mailto:mana%40aut.ac.ir?subject=request%20phone&body=I%20wanted%20to%20request%20your%20home%20number"
@@ -88,6 +92,7 @@
         {
             "title": "Home Number",
             "type": "phone",
+            "icon": "phone",
             "hidden": true,
             "value": "+98 21 265 475 54",
             "url": "mailto:mana%40aut.ac.ir?subject=request%20phone&body=I%20wanted%20to%20request%20your%20home%20number"
@@ -95,12 +100,14 @@
         {
             "title": "Github",
             "type": "github",
+            "icon": "github",
             "value": "ManaPoustizadeh",
             "url": "https://github.com/ManaPoustizadeh"
         },
         {
             "title": "LinkedIn",
             "type": "linkedin",
+            "icon": "linkedin",
             "value": "Mana Poustizadeh",
             "url": "https://www.linkedin.com/in/mana-poustizadeh-050285125"
         },
