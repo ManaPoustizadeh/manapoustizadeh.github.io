@@ -4,17 +4,17 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="main-timeline">
-                    <div v-for="record in educationRecords" :key="record.title" class="timeline">
+                    <div v-for="record in educationRecords" :key="record.description" class="timeline">
                         <span class="timeline-icon">{{record.title}}</span>
                         <div class="timeline-content">
                             <i class="icon fa fa-globe"></i>
-                            <p class="description">
+                            <div class="description">
                                 <b-card :title="record.titleDescription" :sub-title="record.timespan +' | '+record.location">
                                     <p class="card-text">
                                         {{record.description}}
                                     </p>
                                 </b-card>
-                            </p>
+                            </div>
                         </div>
                         <div class="year"><span>{{record.end}}</span></div>
                     </div>

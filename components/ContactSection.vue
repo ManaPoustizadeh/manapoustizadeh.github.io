@@ -1,11 +1,11 @@
 <template>
     <div id="contact">
         <b-card title="Contact" class="mb-2">
-            <p class="card-text">
+            <div class="card-text">
                 <ContactItem v-for="contact in contacts" 
                             :key="contact.title+contact.value"
                             :contact="contact" />
-            </p>
+            </div>
         </b-card>
     </div>
 </template>
@@ -23,7 +23,11 @@ export default {
 
 <style scoped>
     .card-text {
-        min-height: 400px;
+        padding: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
     }
 </style>
 

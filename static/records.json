@@ -114,6 +114,7 @@
         {
             "title": "Faculty Homepage",
             "type": "ceit",
+            "icon": "university",
             "value": "Mana Poustizadeh",
             "url": "http://ceit.aut.ac.ir/~9331030"
         }        

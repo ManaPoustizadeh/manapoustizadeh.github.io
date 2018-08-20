@@ -5,7 +5,6 @@
       <div class="content">
         <EducationSection :educationRecords="educationRecords" />
         <TeachingSection :TARecords="TARecords" />
-        
         <ContactSection :contacts="contacts" />
       </div>
   </section>
