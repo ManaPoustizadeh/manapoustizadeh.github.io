@@ -11,7 +11,8 @@
     </b-card>
 </template>
 <script>
-import { fas, fab } from '@fortawesome/free-solid-svg-icons';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+import { fab } from '@fortawesome/free-brands-svg-icons';
 export default {
     props: {
         contact: Object,
