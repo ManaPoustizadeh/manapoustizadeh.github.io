@@ -1,3 +1,6 @@
+
+@import "./bootstrap.scss";
+
 body {
     scroll-behavior: smooth;
     height: 100vh;
@@ -10,3 +13,6 @@ body {
   /* optional: just make scrollbar invisible */
 }
 
+.nav-link {
+  transition: 0.3s ease;
+}

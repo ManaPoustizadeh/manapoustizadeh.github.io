@@ -1,7 +1,7 @@
 <template>
     <b-card class="mb-2 contact">
         <div class="card-text">
-            <a :href="contact.url" :key="contact.title + contact.value">
+            <a :href="contact.url" target="_blank" :key="contact.title + contact.value">
                 <div class="menu-item">
                     <fa v-if="contact.type === 'github'" :icon="faGithub" size="2x"></fa>
                     <fa v-if="contact.type === 'linkedin'" :icon="faLinkedin" size="2x"></fa>

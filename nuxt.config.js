@@ -1,6 +1,6 @@
 module.exports = {
   css: [
-    '@/assets/css/main.css'
+    '@/assets/css/main.scss'
   ],
   /*
   ** Headers of the page
@@ -25,7 +25,7 @@ module.exports = {
     ]
   },
   modules: [
-    'bootstrap-vue/nuxt',
+    ['bootstrap-vue/nuxt', {css: false}],
     ['nuxt-fontawesome', {
       component: 'fa',
       imports: [
