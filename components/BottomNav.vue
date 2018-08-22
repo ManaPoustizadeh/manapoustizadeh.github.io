@@ -3,7 +3,7 @@
         <div v-swiper:mySwiper="swiperOption">
         <div class="swiper-wrapper">
         <div class="swiper-slide rounded" v-for="menu in menus" :key="menu">
-            <div class="menu p-2 rounded">{{menu}}</div>
+            <div class="menu p-3 rounded">{{menu}}</div>
         </div>
         </div>
         <div class="swiper-button-prev swiper-button-white" slot="button-prev"></div>
@@ -15,15 +15,21 @@
 export default {
     data() {
         let menus = [
-            'one', 
-            'two',
-            'three',
+            'Overview', 
+            'My Story',
+            'Education',
+            'Experience',
+            'Projects and Research',
+            'Skills',
+            'Awards',
+            'News',
+            'Contact',
         ];
         let swiperOption = {
           loop: false,
           slidesPerView: 'auto',
-          centeredSlides: true,
-          spaceBetween: 30,
+          centeredSlides: false,
+          spaceBetween: 10,
           grabCursur: true,
           navigation: {
             nextEl: '.swiper-button-next',
@@ -48,27 +54,31 @@ export default {
 <style lang="scss" scoped>
     .menu {
         background-color: rgba(255, 255, 255, 0.06);
+        height: 55px;
+        position: relative;
+        cursor: pointer;
+        bottom: 0;
         color: hsla(0,0%,100%,.6);
         min-width: 100px;
+        transition: 0.3s ease;
+    }
+    .menu:hover {
+        bottom: 5px;
+        transition: 0.3s ease;
+        background-color:  rgba(255, 255, 255, 0.6);
     }
     .my-swiper {
-        height: 200px;
+        height: 50px;
         width: 100%;
-        .swiper-slide {
-            text-align: center;
-            font-size: 1rem;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 20%;
-        }
     }
     .swiper-slide {
         text-align: center;
-        font-size: 1rem;
+        font-size: 0.7rem;
+        height: 60px;
+        font-weight: 100;
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: flex-end;
         min-width: 100px;
         width: fit-content;
         background-color: transparent;
