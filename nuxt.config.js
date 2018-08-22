@@ -1,6 +1,10 @@
 module.exports = {
+  plugins: [
+    { src: '~/plugins/swiper.js', ssr: false }, 
+  ],
   css: [
-    '@/assets/css/main.scss'
+    '@/assets/css/main.scss',
+    'swiper/dist/css/swiper.css'
   ],
   /*
   ** Headers of the page
