@@ -11,6 +11,7 @@ import BottomNav from '~/components/BottomNav';
 import Overview from '~/components/boring/Overview';
 import Story from '~/components/boring/Story';
 import Education from '~/components/boring/Education';
+import Experience from '~/components/boring/Experience';
 export default {
     layout: 'boring',
     components: {
@@ -18,6 +19,7 @@ export default {
         Overview,
         Story,
         Education,
+        Experience,
     },
     data() {
         const menus = [

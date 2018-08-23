@@ -9,11 +9,15 @@
                         <div class="timeline-content">
                             <i class="icon fa fa-globe"></i>
                             <div class="description">
-                                <b-card :title="record.titleDescription" :sub-title="record.timespan +' | '+record.location">
+                                <div class="card px-5 py-2">
+                                    <h6>{{record.titleDescription}}</h6>
+                                    <div class="text-muted">
+                                        {{record.timespan +' | '+record.location}}
+                                    </div>
                                     <p class="card-text">
                                         {{record.description}}
                                     </p>
-                                </b-card>
+                                </div>
                             </div>
                         </div>
                         <div class="year"><span>{{record.end}}</span></div>
@@ -24,7 +28,13 @@
     </div>
 </div>
 </template>
-<style scoped>.demo{ background: white; }
+<style scoped>
+.card {
+    min-width: 350px;
+    line-height: 19px;
+    font-size: 0.7rem;
+}
+.demo{ background: transparent; }
 .main-timeline{
     overflow: hidden;
     position: relative;
@@ -39,7 +49,7 @@
 }
 .main-timeline .timeline:before{
     content: "";
-    width: 15px;
+    width: 8px;
     height: 100%;
     background: #f4a24c;
     margin: 0 auto;
@@ -58,15 +68,16 @@
     border-radius: 0 0 10px 10px;
 }
 .main-timeline .timeline-icon{
-    display: block;
-    width: 130px;
-    height: 130px;
-    line-height: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     background: white;
-    border: 12px solid #f4a24c;
+    border: 5px solid #f4a24c;
     margin: auto;
-    font-size: 30px;
+    font-size: 1rem;
     font-weight: bold;
     color: black;
     text-align: center;
@@ -87,7 +98,7 @@
     margin: auto 0;
     position: absolute;
     top: 0;
-    left: -33px;
+    left: -27px;
     bottom: 0;
 }
 .main-timeline .timeline-content{
@@ -108,7 +119,7 @@
 }
 .main-timeline .year{
     width: 50%;
-    padding-left: 50px;
+    padding-left: 15px;
     position: absolute;
     top: 50%;
     right: 0;
@@ -116,10 +127,10 @@
 }
 .main-timeline .year span{
     display: inline-block;
-    padding: 12px 25px 12px 25px;
+    padding: 0px 25px 0px 25px;
     background: #f4a24c;
     border-radius: 0 50px 50px 0;
-    font-size: 40px;
+    font-size: 1.5rem;
     font-weight: bold;
     line-height: 36px;
     color: #fff;
@@ -128,7 +139,7 @@
     border-right: none;
     border-left: 15px solid #f26f77;
     left: auto;
-    right: -33px;
+    right: -27px;
 }
 .main-timeline .timeline:nth-child(2n) .timeline-content{
     float: right;
@@ -139,7 +150,7 @@
     padding: 0 50px 0 0;
     text-align: right;
     right: auto;
-    left: 0;
+    left: 33px;
 }
 .main-timeline .timeline:nth-child(2n) .year span{ border-radius: 50px 0 0 50px; }
 .main-timeline .timeline:nth-child(2n) .timeline-icon{ border-color: #f26f77; }

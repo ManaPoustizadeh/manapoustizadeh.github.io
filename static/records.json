@@ -7,7 +7,9 @@
             "titleDescription": "Teaching Assistant",
             "timespan": "Jan 2018 - Jul 2018",
             "location": "Amirkabir University of Technology (Tehran Polytechnic)",
-            "description": "Internet Engineering Dr . Bahador Bakhshi - Assistant Professor",
+            "course": "Internet Engineering",
+            "prof": "Dr . Bahador Bakhshi - Assistant Professor",
+            "description": "",
             "end": "2018"
         },
         {
@@ -15,7 +17,9 @@
             "titleDescription": "Teaching Assistant",
             "timespan": "Jan 2017- Jun 2017",
             "location": "Amirkabir University of Technology (Tehran Polytechnic)",
-            "description": "Computer Aided Digital System Design Prof. Morteza Saheb Zamani - Professor",
+            "course": "Computer Aided Digital System Design",
+            "prof": "Prof. Morteza Saheb Zamani - Professor",
+            "description": "",
             "end": "2017"
         },
         {
@@ -23,7 +27,9 @@
             "titleDescription": "Teaching Assistant",
             "timespan": "Jan 2017- Jun 2017",
             "location": "Amirkabir University of Technology (Tehran Polytechnic)",
-            "description": "Computer Architecture Dr. Saeed Shiry – Associate professor",
+            "course": "Computer Architecture",
+            "prof": "Dr. Saeed Shiry – Associate professor",
+            "description": "",
             "end": "2017"
         },
         {
@@ -31,7 +37,9 @@
             "titleDescription": "Teaching Assistant",
             "timespan": "Sep 2015 – Jan 2016",
             "location": "Amirkabir University of Technology (Tehran Polytechnic)",
-            "description": "Fundamentals of Programming Dr. Bahman Poorvatan - Lecturer",
+            "course": "Fundamentals of Programming",
+            "prof": "Dr. Bahman Poorvatan - Lecturer",
+            "description": "",
             "end": "2016"
         },
         {
@@ -39,7 +47,9 @@
             "titleDescription": "Lecturer",
             "timespan": "Jan 2015 – Jul 2015",
             "location": "Aboureyhan High School",
-            "description": "Geometry and Differential Equations",
+            "course": "Geometry and Differential Equations",
+            "prof": "",
+            "description": "",
             "end": "2015"
         }
     ],
@@ -61,7 +71,7 @@
             "timespan": "2010 - 2014",
             "location": "Aboureyhan High School",
             "major": "Major: Mathematics and Physics",
-            "GPA": "GPA: 17/20 (A)",
+            "GPA": "GPA: 19.5/20 (A)",
             "end": "2014"
         }
     ],
