@@ -10,12 +10,14 @@
 import BottomNav from '~/components/BottomNav';
 import Overview from '~/components/boring/Overview';
 import Story from '~/components/boring/Story';
+import Education from '~/components/boring/Education';
 export default {
     layout: 'boring',
     components: {
         BottomNav,
         Overview,
         Story,
+        Education,
     },
     data() {
         const menus = [

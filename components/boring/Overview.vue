@@ -6,22 +6,22 @@
                     {{overview}}
                 </p>
                 <div class="icons">
-                    <a class="icon mx-1" :href="githubAddress">
+                    <a class="icon mx-1" target="_blank" :href="githubAddress">
                         <fa :icon="faGithub" size="2x"></fa>
                     </a>
-                    <a class="icon mx-1" :href="linkedinAddress">
+                    <a class="icon mx-1" target="_blank" :href="linkedinAddress">
                         <fa :icon="faLinkedin" size="2x"></fa>
                     </a>
-                    <a class="icon mx-1" :href="TwitterAddress">
+                    <a class="icon mx-1" target="_blank" :href="TwitterAddress">
                         <fa :icon="faTwitter" size="2x"></fa>
                     </a>
-                    <a class="icon mx-1" :href="InstagramAddress">
+                    <a class="icon mx-1" target="_blank" :href="InstagramAddress">
                         <fa :icon="faInstagram" size="2x"></fa>
                     </a>
-                    <a class="icon mx-1" :href="EmailAddress">
+                    <a class="icon mx-1" target="_blank" :href="EmailAddress">
                         <fa icon="envelope" size="2x"></fa>
                     </a>
-                    <a class="icon mx-1" :href="EmailAddress2">
+                    <a class="icon mx-1" target="_blank" :href="EmailAddress2">
                         <fa icon="envelope" size="2x"></fa>
                     </a>
                 </div>
