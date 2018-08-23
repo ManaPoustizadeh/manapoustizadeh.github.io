@@ -1,4 +1,6 @@
 {
+    "Name": "Mana Poustizadeh",
+    "Overview": "I am a Computer Engineering Student, a passionate web developer and an ethiusast in game design.",
     "Teaching": [
         {
             "title": "TA",
@@ -112,13 +114,26 @@
             "url": "https://www.linkedin.com/in/mana-poustizadeh-050285125"
         },
         {
+            "title": "Twitter",
+            "type": "twitter",
+            "icon": "twitter",
+            "value": "@mana_pst",
+            "url": "https://twitter.com/mana_pst"
+        },
+        {
+            "title": "Instagram",
+            "type": "instagram",
+            "icon": "instagram",
+            "value": "_._mana_._",
+            "url": "https://www.instagram.com/_._mana_._/"
+        },
+        {
             "title": "Faculty Homepage",
             "type": "ceit",
             "icon": "university",
             "value": "Mana Poustizadeh",
             "url": "http://ceit.aut.ac.ir/~9331030"
-        }        
-
+        }
     ]
 }
 

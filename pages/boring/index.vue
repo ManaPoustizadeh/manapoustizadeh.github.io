@@ -1,20 +1,26 @@
 <template>
-    <div>
-        Hello
+    <div class="container pr-md-5 pl-md-1 pr-sm-0 pl-sm-0">
+        <transition name="fade">
+            <component :is="currentTab"></component>
+        </transition>
         <BottomNav :menus="menus" @goToCategory="goToCategory"/>
     </div>
 </template>
 <script>
 import BottomNav from '~/components/BottomNav';
+import Overview from '~/components/boring/Overview';
+import Story from '~/components/boring/Story';
 export default {
     layout: 'boring',
     components: {
         BottomNav,
+        Overview,
+        Story,
     },
     data() {
         const menus = [
             {name: 'Overview', active: true}, 
-            {name: 'My Story', active: false},
+            {name: 'Story', active: false},
             {name: 'Education', active: false},
             {name: 'Experience', active: false},
             {name: 'Projects and Research', active: false},
@@ -25,6 +31,7 @@ export default {
         ];
         return {
             menus,
+            selectedIndex: 0,
         }
     },
     methods: {
@@ -35,13 +42,28 @@ export default {
                 return menu;
             });
             newMenus[selectedIndex].active = true;
+            this.selectedIndex = selectedIndex; 
             this.menus = newMenus;
+        }
+    },
+    computed: {
+        currentTab: function () {
+            return this.menus[this.selectedIndex].name;
         }
     }
 }
 </script>
 <style scoped>
-    
+    .fade-leave-active {
+        transition: opacity .5s;
+    }
+    .fade-enter-active {
+        transition: opacity .5s ease;
+        transition-delay: .5s;
+    }
+    .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+        opacity: 0;
+    }
 </style>
 
 

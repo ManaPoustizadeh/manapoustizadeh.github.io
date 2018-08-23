@@ -1,5 +1,5 @@
 <template>
-    <div class="fixed-bottom border-top border-light py-2 px-0">
+    <div class="fixed-bottom bg-primary border-top border-light py-2 px-0">
         <div v-swiper:mySwiper="swiperOption">
         <div class="swiper-wrapper">
         <div class="swiper-slide rounded" v-for="(menu,index) in menus" :key="menu.name">
