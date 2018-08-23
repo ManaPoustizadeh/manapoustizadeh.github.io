@@ -1,6 +1,6 @@
 <template>
     <div class="row">
-        <div class="right-text text-md-left text-sm-center d-flex flex-column justify-content-center col-md-4 col-sm-12 p-3">
+        <div class="right-text text-md-left text-sm-center d-flex flex-column justify-content-center col-md-2 col-sm-12 p-3">
             <div class="button rounded">
                 <div :class="{menu: true, 'p-3 mx-1': true, rounded: true, clicked: index === 0}" @click="() => clicked(0)">Teaching</div>
             </div>
@@ -8,7 +8,7 @@
                 <div :class="{menu: true, 'p-3': true, rounded: true, clicked: index === 1}" @click="() => clicked(1)">Work</div>
             </div>
         </div>
-        <div class="left-image col-md-8 col-sm-12">
+        <div class="left-image col-md-10 col-sm-12">
             <div class="work card-text">
                 <!-- <Timeline :educationRecords="teachingRecords" /> -->
                 <NewTimeline :items="teachingRecords" />
