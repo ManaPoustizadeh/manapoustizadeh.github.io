@@ -1,5 +1,5 @@
 <template>
-    <div class="container pr-md-5 pl-md-1 pr-sm-0 pl-sm-0">
+    <div class="container pr-md-5 pl-md-1 pr-sm-0 pl-sm-0 mb-sm-5 pb-sm-3">
         <transition name="fade">
             <component :is="currentTab"></component>
         </transition>

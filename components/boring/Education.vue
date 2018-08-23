@@ -4,24 +4,29 @@
             <img class="img-fluid" src="~/assets/img/book.png" alt="Education" />
         </div>
         <div class="right-text text-md-left text-sm-center col-md-6 col-sm-12 p-3"> 
-            <div class="card bg-primary shadow-sm">
-                <div class="row card-row">
-                    <div class="col-xs-3 bg-white rounded-left p-3 d-flex justify-content-center align-items-center">
-                        <img class="rounded img-fluid logo" src="~/assets/img/aut.png" alt="AUT" /> 
-                    </div>
-                    <div class="col description p-2">
-                        <h6>Bachelor of Science</h6>
-                        <div>Amirkabir University of Technology</div>
-                        <p>jhgjhg jhgjhg khkjh jlkl lklkj kjkh kjkh kjlkj kjhkjh kjkh khljl</p>
-                    </div>
-                </div>
-            </div>
+            <EducationCard v-for="record in educationRecords" 
+                           :key="record.title"
+                           :title="record.titleDescription"
+                           :location="record.location"
+                           :duration="record.timespan"
+                           :major="record.major"
+                           :minor="record.minor"
+                           :GPA="record.GPA" />
         </div>
     </div>
 </template>
 <script>
+import records from '~/static/records.json';
+import EducationCard from '~/components/boring/EducationCard';
 export default {
-    
+    components: {
+        EducationCard,
+    },
+    data() {
+        return {
+            educationRecords: records.Education,
+        }
+    }
 }
 </script>
 <style scoped>
@@ -44,24 +49,6 @@ export default {
         position: relative;
         height: 390px;
         width: 340px;
-    }
-    .card-row {
-        width: 100%;
-        position: relative;
-        margin-right: 0;
-        margin-left: 0;
-    }
-    .description {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-    }
-    .description p, .description div {
-        font-size: 0.6rem;
-    }
-    .logo {
-        max-width: 80px;
     }
 </style>
 

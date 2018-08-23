@@ -49,7 +49,10 @@
             "titleDescription": "Bachelor of Science",
             "timespan": "2014 - 2018",
             "location": "Amirkabir University of Technology (Tehran Polytechnic)",
-            "description": "Major: Computer Engineering Minor: Computer Architecture and Hardware Design GPA: 17/20 (A)",
+            "major": "Major: Computer Engineering",
+            "minor": "Minor: Computer Architecture and Hardware Design",
+            "GPA": "GPA: 17/20 (A)",
+            "logo": "~/assets/img/aut.png",
             "end": "2018"
         },
         {
@@ -57,7 +60,8 @@
             "titleDescription": "High School Diploma Graduate",
             "timespan": "2010 - 2014",
             "location": "Aboureyhan High School",
-            "description": "Major: Mathematics and Physics GPA: 17/20 (A)",
+            "major": "Major: Mathematics and Physics",
+            "GPA": "GPA: 17/20 (A)",
             "end": "2014"
         }
     ],
