@@ -241,6 +241,44 @@
             "end": "2014"
         }
     ],
+    "Projects": [
+        {
+            "id": 1,
+            "title": "Image Template Matching using CUDA and OpenMP",
+            "location": "Amirkabir University of Technology (Tehran Polytechnic)– A.U.T ",
+            "duration": "July 2018",
+            "description": "As final project for Multicore Programming course ",
+            "logo": "https://developer.nvidia.com/sites/default/files/akamai/cuda/images/product_logos/NV_CUDA_wider.jpg",
+            "link": ""
+        },
+        {
+            "id": 2,
+            "title": "Creating a scene using 3D coordinate system",
+            "location": "Amirkabir University of Technology (Tehran Polytechnic)– A.U.T ",
+            "duration": "March 2018",
+            "description": "Done while studying Graphics Codex projects",
+            "logo": "https://casual-effects.com/g3d/G3D10/doc-files/G3D.jpg",
+            "link": ""
+        },
+        {
+            "id": 3,
+            "title": "Amirkabir Buffet (AUT Diner)",
+            "location": "Amirkabir University of Technology (Tehran Polytechnic)– A.U.T ",
+            "duration": "Apr 2017 – Sep 2017",
+            "description": "Designing a website, mobile-app for the university cafeteria using Node.js and Vue and Nuxt ",
+            "logo": "https://casual-effects.com/g3d/G3D10/doc-files/G3D.jpg",
+            "link": ""
+        },
+        {
+            "id": 4,
+            "title": "Reading and writing on SDcard using ATMEGA16 ",
+            "location": "Amirkabir University of Technology (Tehran Polytechnic)– A.U.T ",
+            "duration": "May 2017 – Jun 2017",
+            "description": "Implemented using Proteus",
+            "logo": "https://cdn.mikroe.com/img/compilers/mikroc/avr/default/overview/atmel-logo-partners.png",
+            "link": ""
+        }
+    ],
     "Contact": [
         {
             "title": "Email",

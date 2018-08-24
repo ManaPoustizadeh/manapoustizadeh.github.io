@@ -12,6 +12,7 @@ import Overview from '~/components/boring/Overview';
 import Story from '~/components/boring/Story';
 import Education from '~/components/boring/Education';
 import Experience from '~/components/boring/Experience';
+import Projects from '~/components/boring/Projects';
 export default {
     layout: 'boring',
     components: {
@@ -20,18 +21,19 @@ export default {
         Story,
         Education,
         Experience,
+        Projects,
     },
     data() {
         const menus = [
-            {name: 'Overview', active: true}, 
-            {name: 'Story', active: false},
-            {name: 'Education', active: false},
-            {name: 'Experience', active: false},
-            {name: 'Projects and Research', active: false},
-            {name: 'Skills', active: false},
-            {name: 'Awards', active: false},
-            {name: 'News', active: false},
-            {name: 'Contact', active: false},
+            {id: 'Overview',  name: 'Overview', active: true}, 
+            {id: 'Story',  name: 'Story', active: false},
+            {id: 'Education',  name: 'Education', active: false},
+            {id: 'Experience',  name: 'Experience', active: false},
+            {id: 'Projects',  name: 'Projects and Research', active: false},
+            {id: 'Skills',  name: 'Skills', active: false},
+            {id: 'Awards',  name: 'Awards', active: false},
+            {id: 'News',  name: 'News', active: false},
+            {id: 'Contact',  name: 'Contact', active: false},
         ];
         return {
             menus,
@@ -52,7 +54,7 @@ export default {
     },
     computed: {
         currentTab: function () {
-            return this.menus[this.selectedIndex].name;
+            return this.menus[this.selectedIndex].id;
         }
     }
 }

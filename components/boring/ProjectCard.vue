@@ -1,0 +1,70 @@
+<template>
+    <div class="card bg-primary shadow-sm mb-2">
+        <div class="row card-row">
+            <div class="col-xs-3 bg-white rounded-left p-3 d-flex justify-content-center align-items-center">
+                <b-img class="rounded img-fluid logo" :src="logo" :alt="title" />
+            </div>
+            <div class="col description p-2">
+                <h6>{{title}}</h6>
+                <div class="mt-0">{{location}}</div>
+                <div>{{duration}}</div>
+                <!-- <p v-if="description">{{describtion}}</p> -->
+                <b-btn :aria-controls="title" @click="toggle" variant="primary">Show more</b-btn>
+                <b-collapse v-model="isOpen" :id="title">
+                    <p v-if="description">{{description}}</p>  
+                </b-collapse>
+            </div>
+        </div>
+    </div>
+</template>
+<script>
+export default {
+    props: {
+        title: String,
+        subtitle: String,
+        location: String,
+        duration: String,
+        description: String,
+        logo: String,
+        link: String,
+    }, 
+    data() {
+        return {
+            isOpen: false,
+        }
+    },
+    methods: {
+        toggle() {
+            console.log('====================================');
+            console.log(this.isOpen);
+            console.log('====================================');
+            this.isOpen = !this.isOpen;
+        }
+    }
+}
+</script>
+
+<style scoped>
+    .card-row {
+        width: 100%;
+        position: relative;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .description div {
+        font-size: 0.6rem;
+    }
+    .description p{
+        font-size: 0.7rem;
+    }
+    .logo {
+        max-width: 80px;
+    }
+</style>
+
