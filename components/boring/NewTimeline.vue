@@ -47,11 +47,12 @@ body {
   margin: 4em auto;
   position: relative;
   max-width: 46em;
+  list-style: none;
   
   &:before {
     background-color: $color-1;
     content: '';
-    margin-left: -1px;
+    margin-left: 39px;
     position: absolute;
     top: 0;
     left: 2em;
@@ -106,7 +107,7 @@ body {
   transform: rotate(45deg);
   
   background-color: $color-1;
-  outline: 10px solid $color-2;
+  outline: 10px solid rgb(48, 128, 251);
   display: block;
   margin: 0.5em 0.5em 0.5em -0.5em;
   position: absolute;
