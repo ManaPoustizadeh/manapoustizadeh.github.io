@@ -77,17 +77,22 @@
             "links": [
                 {
                     "id": 1,
-                    "linkText": "AUT ICPC Website",
-                    "linkURL": "https://icpc.aut.ac.ir/"
+                    "linkText": "CEIT Scientific Chapter Website",
+                    "linkURL": "https://ceit-ssc.ir/"
                 },
                 {
                     "id": 2,
+                    "linkText": "CEIT Scientific Chapter Twitter",
+                    "linkURL": "https://twitter.com/ceit_ssc"
+                },
+                {
+                    "id": 3,
                     "linkText": "Amirkabir University of Technology Student Associations Website",
                     "linkDesc": "The site might fail on first load :| refresh it and you're good to go. (Thanks to the university for its efforts for maintaining the domain :/)",
                     "linkURL": "http://sao-aut.ir/en"
                 },
                 {
-                    "id": 3,
+                    "id": 4,
                     "linkText": "Amirkabir Student Associations Alumni",
                     "linkURL": "http://sao-aut.ir/bashgah/#1448655880715-fdb9d431-d8db",
                     "linkDesc": "You can see an awefull photo of me here and also this is only available in persian, again thanks to the university's aweful maintenance"
@@ -110,6 +115,11 @@
                     "id": 1,
                     "linkText": "AUT ICPC Website",
                     "linkURL": "https://icpc.aut.ac.ir/"
+                },
+                {
+                    "id": 2,
+                    "linkText": "Checkout the event Tweets",
+                    "linkURL": "https://twitter.com/hashtag/AUTICPC?src=hash"
                 }
             ]
         },
@@ -131,6 +141,34 @@
                     "id": 2,
                     "linkText": "AUT ICPC Website - History",
                     "linkURL": "https://icpc.aut.ac.ir/history"
+                },
+                {
+                  "id": 3,
+                  "linkText": "Checkout the event Tweets",
+                  "linkURL": "https://twitter.com/hashtag/AUTICPC?src=hash"
+                }
+            ]
+        },
+        {
+            "title": "KEY EXECUTIVE MEMBER",
+            "titleDescription": "Key Executive Member",
+            "timespan": "May 2017",
+            "location": "9<sup>th</sup> National Amirkabir Linux Festival",
+            "firstJob": "Financial Event Manager",
+            "firstJobDesc": "I was in charge of contacting different corporations in order to find sponsors for the event. I also managed all payments of the contest. I was also in charge of appointing the logistics team manager so that the contestants' requirements were properly satisfied.",
+            "secondJob": "Workshop Coordinator",
+            "secondJobDesc": "I made the timetables and necessary coordinations with lecturers to assign the proper time slot for each workshop",
+            "end": "2018",
+            "links": [
+                {
+                    "id": 1,
+                    "linkText": "Amirkabir Student Association news piece on the event",
+                    "linkURL": "http://sao-aut.ir/%D9%86%D9%87%D9%85%DB%8C%D9%86-%D8%AC%D8%B4%D9%86%D9%88%D8%A7%D8%B1%D9%87-%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3-%D8%A7%D9%85%DB%8C%D8%B1%DA%A9%D8%A8%DB%8C%D8%B1/"
+                },
+                {
+                    "id": 2,
+                    "linkText": "Tweets About the Event",
+                    "linkURL": "https://twitter.com/ceit_ssc/status/729224579013591040"
                 }
             ]
         },
@@ -153,6 +191,32 @@
                 "linkURL": "https://icpc.aut.ac.ir/history"
               }
             ]
+        },
+        {
+          "title": "KEY EXECUTIVE MEMBER",
+          "titleDescription": "Executive Member",
+          "timespan": "May 2016",
+          "location": "8<sup>th</sup> National Amirkabir Linux Festival",
+          "firstJob": "Event Staff",
+          "firstJobDesc": "There was a bunch of different tasks I did as a staff member of the festival, including preperations of the classes, coordination with lecturers and check-in of the registrants.",
+          "end": "2018",
+          "links": [
+            {
+              "id": 1,
+              "linkText": "Linuxfest Twitter Account",
+              "linkURL": "https://twitter.com/LinuxFestival"
+            },
+            {
+              "id": 2,
+              "linkText": "CEIT Faculty news piece of the event",
+              "linkURL": "http://ceit.aut.ac.ir/autcms/news/newsDetail.htm?id=1778221294&depurl=computer-engineering&lang=fa&cid=20436092"
+            },
+            {
+              "id": 3,
+              "linkText": "Checkout the facebook posts",
+              "linkURL": "https://www.facebook.com/hashtag/linuxfestir"
+            }
+          ]
         }
     ],
     "Education": [
