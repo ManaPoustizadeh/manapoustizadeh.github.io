@@ -12,7 +12,7 @@
                     <div :class="{menu: true, 'p-3 mb-1': true, rounded: true, clicked: index === 1}" @click="() => clicked(1)">
                         <img class="img-fluid" src="~/assets/img/work.svg" height="80px" alt="Teaching">
                         <div class="mt-2">
-                            Work
+                            Industry
                         </div>
                     </div>
                 </div>
@@ -30,7 +30,7 @@
         <div class="left-image col-sm-9 col-md-9">
             <div class="work card-text">
                 <!-- <Timeline :educationRecords="teachingRecords" /> -->
-                <NewTimeline :items="teachingRecords" />
+                <NewTimeline :items="Records" />
             </div>
         </div>
     </div>
@@ -47,7 +47,19 @@ export default {
     data() {
         return {
             teachingRecords: records.Teaching,
+            workRecords: records.Working,
+            executiveRecords: records.Executive,
             index: 0,
+        }
+    },
+    computed: {
+        Records(){
+            if(this.index === 0)
+                return this.teachingRecords;
+            else if(this.index === 1)
+                return this.workRecords;
+            else if(this.index === 2)
+                return this.executiveRecords;
         }
     },
     methods: {

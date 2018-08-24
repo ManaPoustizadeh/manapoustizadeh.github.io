@@ -5,8 +5,18 @@
     <div class="timeline-event-copy">
       <p class="timeline-event-thumbnail">{{item.timespan}}</p>
       <h3>{{item.titleDescription}}</h3>
-      <h4>{{item.location}}</h4>
-      <p><strong>{{item.course}} | {{item.prof}}</strong><br>{{item.description}}</p>
+      <h4 v-html="item.location"></h4>
+      <p v-if="item.course"><strong>{{item.course}} | {{item.prof}}</strong><br>{{item.description}}</p>
+      <p v-else><strong>{{item.firstJob}}</strong><br>{{item.firstJobDesc}}</p>
+      <p v-if="item.secondJob"><strong>{{item.secondJob}}</strong><br>{{item.secondJobDesc}}</p>
+      <strong v-if="item.links">Useful Links:<br/></strong>
+      <div class="link" v-for="(link, index) in item.links" :key="link.id">
+        <a :href="link.linkURL" target="_blank">{{link.linkText}}</a>
+        <div class="link-description">
+          <span v-if="link.linkDesc">{{link.linkDesc}}</span>
+        </div>
+        <hr v-if="index+1 !== item.links.length" class="horizontal-line">
+      </div>
       <!-- <p><strong>Projektmanagement mit Scrum</strong><br>Ständiges Verbessern des agilen Entwicklungsprozesses beispielsweise durch Grunt, Yeoman, GIT, JIRA und BrowserStack.</p> -->
     </div>
   </li>
@@ -127,6 +137,29 @@ body {
   display: inline-block;
   margin-bottom: 1.2em;
   padding: 0.25em 1em 0.2em 1em;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
+.link {
+  font-size: 0.7rem;
+  font-weight: 100;
+}
+.link-description {
+  font-size: 0.6rem;
+  font-weight: 400;
+  margin-top: 2px;
+}
+.horizontal-line {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 40px;
+    margin-left: 0;
 }
 </style>
 

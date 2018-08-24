@@ -53,6 +53,108 @@
             "end": "2015"
         }
     ],
+    "Working": [
+        {
+          "title": "Fandogh co.",
+          "titleDescription": "Web Developer",
+          "timespan": "Mar 2017 - Nov 2017",
+          "location": "Fandogh Co.",
+          "firstJob": "Front-end Developer",
+          "firstJobDesc": "I used to develop a number of Progressive Web Apps (PWA) for the company using Vue.js and Nuxt. During this time I mastered basic technologies such as HTML5, CSS3 and JavaScript; as well some advanced frameworks like Vue.js and Nuxt.",
+          "secondJob": "Back-end Developer",
+          "secondJobDesc": "I used to develop the back-end for some of our projects using Node.js and Hapi. I mastered working with MongoDB database during this time and also learned the fundamaentals of creating a REST API using Node.js.",
+          "end": "2018"
+        }
+    ],
+    "Executive": [
+        {
+            "title": "Head of Financial Affairs",
+            "titleDescription": "Head of Financial Affairs",
+            "timespan": "Dec 2015 - Dec 2016",
+            "location": "Student Scientific Chapter of Faculty of Computer Engineering and IT of Amirkabir University of Technology",
+            "firstJob": "Responsibilities",
+            "firstJobDesc": "My responsibilites included keeping account of different financial transactions that the Student Scientific Chapter made, reporting them to the Head Office of Student Assosications and also making proposals to attract sponsors for the wide variety of events, held by our chapter.",
+            "links": [
+                {
+                    "id": 1,
+                    "linkText": "AUT ICPC Website",
+                    "linkURL": "https://icpc.aut.ac.ir/"
+                },
+                {
+                    "id": 2,
+                    "linkText": "Amirkabir University of Technology Student Associations Website",
+                    "linkDesc": "The site might fail on first load :| refresh it and you're good to go. (Thanks to the university for its efforts for maintaining the domain :/)",
+                    "linkURL": "http://sao-aut.ir/en"
+                },
+                {
+                    "id": 3,
+                    "linkText": "Amirkabir Student Associations Alumni",
+                    "linkURL": "http://sao-aut.ir/bashgah/#1448655880715-fdb9d431-d8db",
+                    "linkDesc": "You can see an awefull photo of me here and also this is only available in persian, again thanks to the university's aweful maintenance"
+                }
+            ],
+            "end": "2018"
+        },
+        {
+            "title": "KEY EXECUTIVE MEMBER",
+            "titleDescription": "Key Executive Member",
+            "timespan": "Nov 2018",
+            "location": "18<sup>th</sup> Amirkabir International Collegiate Programming Contest (ACM ICPC)",
+            "firstJob": "Event Coordinator",
+            "firstJobDesc": "I was in charge of making arrangements with international teams, designing the contestant team placings so that the contest is diverse and fun enough for everyone.",
+            "secondJob": "Contest Staff",
+            "secondJobDesc": "During the contest I was also one of the staff that answered team questions and relayed the problems to the judges.",
+            "end": "2018",
+            "links": [
+                {
+                    "id": 1,
+                    "linkText": "AUT ICPC Website",
+                    "linkURL": "https://icpc.aut.ac.ir/"
+                }
+            ]
+        },
+        {
+            "title": "KEY EXECUTIVE MEMBER",
+            "titleDescription": "Key Executive Member",
+            "timespan": "Nov 2017",
+            "location": "17<sup>th</sup> Amirkabir International Collegiate Programming Contest (ACM ICPC)",
+            "firstJob": "Financial Event Manager",
+            "firstJobDesc": "I was in charge of contacting different corporations in order to find sponsors for the event. I also managed all payments of the contest. I was also in charge of appointing the logistics team manager so that the contestants' requirements were properly satisfied.",
+            "end": "2018",
+            "links": [
+                {
+                    "id": 1,
+                    "linkText": "AUT ICPC Website - Past Contests",
+                    "linkURL": "https://icpc.aut.ac.ir/past"
+                },
+                {
+                    "id": 2,
+                    "linkText": "AUT ICPC Website - History",
+                    "linkURL": "https://icpc.aut.ac.ir/history"
+                }
+            ]
+        },
+        {
+            "title": "EXECUTIVE MEMBER",
+            "titleDescription": "Executive Member",
+            "timespan": "Nov 2016",
+            "location": "16<sup>th</sup> Amirkabir International Collegiate Programming Contest (ACM ICPC)",
+            "firstJob": "Contest Staff",
+            "firstJobDesc": "During the contest I was also one of the staff that answered team questions and relayed the problems to the judges.",
+            "end": "2018",
+            "links": [{
+                "id": 1,
+                "linkText": "AUT ICPC Website - Past Contests",
+                "linkURL": "https://icpc.aut.ac.ir/past"
+              },
+              {
+                "id": 2,
+                "linkText": "AUT ICPC Website - History",
+                "linkURL": "https://icpc.aut.ac.ir/history"
+              }
+            ]
+        }
+    ],
     "Education": [
         {
             "title": "BSc.",
