@@ -1,14 +1,33 @@
 <template>
     <div class="row">
-        <div class="right-text text-md-left text-sm-center d-flex flex-column justify-content-center col-md-2 col-sm-12 p-3">
-            <div class="button rounded">
-                <div :class="{menu: true, 'p-3 mx-1': true, rounded: true, clicked: index === 0}" @click="() => clicked(0)">Teaching</div>
+        <div class="right-text text-md-left text-sm-center col-sm-3 col-md-3 d-flex p-3 ">
+            <div class="row justify-content-around">
+                <div class="button rounded col-sm-12 col-md-12">
+                    <div :class="{menu: true, 'p-3 my-1': true, rounded: true, clicked: index === 0}" @click="() => clicked(0)">
+                        <img class="img-fluid" src="~/assets/img/education.svg" height="80px" alt="Teaching">
+                        <div class="mt-2">Teaching</div>
+                    </div>
+                </div>
+                <div class="button rounded col-sm-12 col-md-12">
+                    <div :class="{menu: true, 'p-3 mb-1': true, rounded: true, clicked: index === 1}" @click="() => clicked(1)">
+                        <img class="img-fluid" src="~/assets/img/work.svg" height="80px" alt="Teaching">
+                        <div class="mt-2">
+                            Work
+                        </div>
+                    </div>
+                </div>
+                <div class="button rounded col-sm-12 col-md-12">
+                    <div :class="{menu: true, 'p-3': true, rounded: true, clicked: index === 2}" @click="() => clicked(2)">
+                        <img class="img-fluid" src="~/assets/img/executive.svg" height="80px" alt="Teaching">
+                        <div class="mt-2">
+                            Executive
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="button rounded">
-                <div :class="{menu: true, 'p-3': true, rounded: true, clicked: index === 1}" @click="() => clicked(1)">Work</div>
-            </div>
+            <!-- <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
         </div>
-        <div class="left-image col-md-10 col-sm-12">
+        <div class="left-image col-sm-9 col-md-9">
             <div class="work card-text">
                 <!-- <Timeline :educationRecords="teachingRecords" /> -->
                 <NewTimeline :items="teachingRecords" />
@@ -51,10 +70,11 @@ export default {
     }
     .menu {
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         background-color: rgba(255, 255, 255, 0.06);
-        height: 55px;
+        min-height: 55px;
         position: relative;
         cursor: pointer;
         bottom: 0;
@@ -74,7 +94,7 @@ export default {
     .button {
         text-align: center;
         font-size: 0.8rem;
-        height: 60px;
+        min-height: 60px;
         font-weight: 100;
         display: flex;
         justify-content: center;
