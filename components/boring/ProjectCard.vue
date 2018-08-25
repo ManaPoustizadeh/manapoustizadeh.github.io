@@ -1,6 +1,6 @@
 <template>
-    <div class="card bg-primary shadow-sm mb-2">
-        <div class="row card-row">
+    <div class="card project-card bg-primary shadow-sm mb-2">
+        <div @click="toggle" class="row card-row">
             <div class="col-xs-3 bg-white rounded-left p-3 d-flex justify-content-center align-items-center">
                 <b-img class="rounded img-fluid logo" :src="logo" :alt="title" />
             </div>
@@ -9,10 +9,13 @@
                 <div class="mt-0">{{location}}</div>
                 <div>{{duration}}</div>
                 <!-- <p v-if="description">{{describtion}}</p> -->
-                <b-btn :aria-controls="title" @click="toggle" variant="primary">Show more</b-btn>
+                <!-- <b-btn :aria-controls="title" @click="toggle" variant="primary">Show more</b-btn> -->
                 <b-collapse v-model="isOpen" :id="title">
                     <p v-if="description">{{description}}</p>  
                 </b-collapse>
+                <span class="more">
+                    <fa icon="chevron-down" size="2x"></fa>
+                </span>
             </div>
         </div>
     </div>
@@ -52,6 +55,7 @@ export default {
         margin-left: 0;
     }
     .description {
+        position: relative;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -65,6 +69,16 @@ export default {
     }
     .logo {
         max-width: 80px;
+    }
+    .more {
+        position: absolute;
+        width: 30px;
+        height: 20px;
+        right: 1rem;
+        font-size: 0.6rem
+    }
+    .project-card {
+        cursor: pointer;
     }
 </style>
 

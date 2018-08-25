@@ -13,6 +13,8 @@ import Story from '~/components/boring/Story';
 import Education from '~/components/boring/Education';
 import Experience from '~/components/boring/Experience';
 import Projects from '~/components/boring/Projects';
+import Skills from '~/components/boring/Skills';
+import Awards from '~/components/boring/Awards';
 export default {
     layout: 'boring',
     components: {
@@ -22,6 +24,8 @@ export default {
         Education,
         Experience,
         Projects,
+        Skills,
+        Awards,
     },
     data() {
         const menus = [

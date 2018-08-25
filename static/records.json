@@ -279,6 +279,286 @@
             "link": ""
         }
     ],
+    "Skills": [
+        {
+            "id": 1,
+            "title": "Programming Languages",
+            "description": "Something",
+            "skills": [
+                {
+                    "id": 1, 
+                    "title": "C/C++",
+                    "logo": "cpp.png",
+                    "description": "Some C"
+                },
+                {
+                    "id": 2, 
+                    "title": "Java",
+                    "logo": "java.png",
+                    "description": "Some J"
+                },
+                {
+                    "id": 3, 
+                    "title": "Node.js",
+                    "logo": "node.png",
+                    "description": "Some JS"
+                },
+                {
+                    "id": 4, 
+                    "title": "VHDL",
+                    "description": "Some vhdl"
+                },
+                {
+                    "id": 5, 
+                    "title": "8086 Assembly",
+                    "description": "Some 8086"
+                },
+                {
+                    "id": 6, 
+                    "title": "8086 Assembly",
+                    "description": "Some 8086"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Multicore Programming",
+            "description": "Some Multi shit",
+            "skills": [
+                {
+                    "id": 1,
+                    "title": "Nvidia CUDA",
+                    "logo": "cuda.png",
+                    "description": "Some Cuda"
+                },
+                {
+                    "id": 2,
+                    "title": "OpenMP",
+                    "logo": "openmp.png",
+                    "description": "Some open"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Graphics",
+            "description": "Some graphic",
+            "skills": [
+                {
+                    "id": 1,
+                    "title": "G3D Innovation Engine",
+                    "logo": "https://casual-effects.com/g3d/G3D10/doc-files/G3D.jpg",
+                    "description": "Some G3d"
+                },
+                {
+                    "id": 2,
+                    "title": "Unity 3D",
+                    "logo": "",
+                    "description": "Still Learning"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "IDEs",
+            "description": "I'm quite comfortable working with these IDEs",
+            "skills": [
+                {
+                    "id": 1,
+                    "title": "IntelliJ",
+                    "logo": "intellij.png",
+                    "description": "Some intellij"
+                },
+                {
+                    "id": 2,
+                    "title": "Eclipse",
+                    "logo": "eclipse.png",
+                    "description": "Some Eclipse"
+                },
+                {
+                    "id": 3,
+                    "title": "Android Studio",
+                    "logo": "anroidStudio.png",
+                    "description": "Some android"
+                },
+                {
+                    "id": 4,
+                    "title": "JetBrain's CLion",
+                    "logo": "clion.png",
+                    "description": "Some clion"
+                },
+                {
+                    "id": 5,
+                    "title": "Visual Studio",
+                    "logo": "visualStudio.png",
+                    "description": "Some visual"
+                },
+                {
+                    "id": 6,
+                    "title": "Visual Studio Code",
+                    "logo": "vscode.png",
+                    "description": "Some vscode"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Computer Architecture and Hardware Design",
+            "description": "some blah",
+            "skills": [
+                {
+                    "id": 1,
+                    "title": "Xilinx ISE",
+                    "logo": "ise.png",
+                    "description": "Some ise"
+                },
+                {
+                    "id": 2,
+                    "title": "Xilinx Vivado",
+                    "logo": "vivado.png",
+                    "description": "Some vivado"
+                },
+                {
+                    "id": 3,
+                    "title": "Microprocessor Programming",
+                    "description": "Some micro"
+                },
+                {
+                    "id": 4,
+                    "title": "Atmel Studio",
+                    "logo": "https://cdn.mikroe.com/img/compilers/mikroc/avr/default/overview/atmel-logo-partners.png",
+                    "description": "Some atmel"
+                },
+                {
+                    "id": 5,
+                    "title": "Proteus",
+                    "logo": "proteus.jpg",
+                    "description": "Some proteus"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Operating Systems",
+            "description": "blah blah",
+            "skills": [
+                {
+                    "id": 1,
+                    "title": "Microsoft Windows",
+                    "logo": "windows.png",
+                    "description": "Some windows"
+                }, 
+                {
+                    "id": 2,
+                    "title": "Ubuntu",
+                    "logo": "ubuntu.jpg",
+                    "description": "Some ubuntu"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Version Control Software",
+            "description": "blah git",
+            "skills": [
+                {
+                    "id": 1,
+                    "title": "Git",
+                    "logo": "git.png",
+                    "description": "Some git"
+                } 
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Web Development - Front-end",
+            "description": "blah front",
+            "skills": [
+                {
+                    "id": 1,
+                    "title": "Basics",
+                    "logo": "web.png",
+                    "description": "Some basics"
+                }, 
+                {
+                    "id": 2,
+                    "title": "Vue",
+                    "logo": "vue.png",
+                    "description": "Some vue"
+                },
+                {
+                    "id": 3,
+                    "title": "Nuxt",
+                    "logo": "nuxt.png",
+                    "description": "Some nuxt"
+                },
+                {
+                    "id": 4,
+                    "title": "Advanced JavaScript (ECMA 6)",
+                    "logo": "web.png",
+                    "description": "Some JS"
+                },
+                {
+                    "id": 5,
+                    "title": "JQuery",
+                    "logo": "jquery.gif",
+                    "description": "Some jquery"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "title": "Web Development - Back-end",
+            "description": "blah back",
+            "skills": [
+                {
+                    "id": 1,
+                    "title": "Node.js",
+                    "logo": "node.png",
+                    "description": "Some node"
+                }, 
+                {
+                    "id": 2,
+                    "title": "Hapi",
+                    "logo": "hapi.png",
+                    "description": "Some hapi"
+                },
+                {
+                    "id": 3,
+                    "title": "MongoDB",
+                    "logo": "mongoDB.png",
+                    "description": "Some mongoDB"
+                },
+                {
+                    "id": 4,
+                    "title": "Microsoft SQL",
+                    "logo": "sql.png",
+                    "description": "Some sql"
+                }
+            ]
+        }
+    ],
+    "Awards": [
+        {
+            "id": 1,
+            "title": "<strong>Ranked 1<sup>st</sup></strong> as a member of <strong>11<sup>th</sup> Student Scientific Chapter</strong> of Computer Engineering and IT faculty of Amirkabir University of Technology ",
+            "time": "Sep 2016",
+            "location": "9<sup>th</sup> Harkat Festival"
+        },
+        {
+            "id": 2,
+            "title": "<strong>Ranked 1<sup>st</sup></strong> as a member of <strong>11<sup>th</sup> Student Scientific Chapter</strong> of Computer Engineering and IT faculty of Amirkabir University of Technology ",
+            "time": "May 2016",
+            "location": "Annual contest for outstanding Student Scientific Chapter of the University"
+
+        },
+        {
+            "id": 3,
+            "title": "<strong>Ranked 715<sup>th</sup></strong> and among <strong>top 0.3% (222,507 people)</strong>",
+            "time": "Jun 2014",
+            "location": "Iranians National University Entrance Exam"
+        }
+    ],
     "Contact": [
         {
             "title": "Email",

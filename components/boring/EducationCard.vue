@@ -3,7 +3,7 @@
         <div class="row card-row">
             <div class="col-xs-3 bg-white rounded-left p-3 d-flex justify-content-center align-items-center">
                 <img v-if="title === 'Bachelor of Science'" class="rounded img-fluid logo" src="~/assets/img/aut.png" alt="AUT" />
-                <b-img v-else class="rounded logo" fluid blank blank-color="#ececec" :alt="title" /> 
+                <img v-else src="~/assets/img/abureyhan.png" class="rounded logo img-fluid"  :alt="title" /> 
             </div>
             <div class="col description p-2">
                 <h6>{{title}}</h6>
