@@ -128,6 +128,7 @@ export default {
     }
     .row {
         height: 78vh;
+        overflow-y: auto;
     }
 </style>
 
