@@ -1,14 +1,14 @@
 <template>
     <div class="row">
         <div class="right-text text-md-left text-sm-center col-sm-3 col-md-3 d-flex p-3 ">
-            <div class="row justify-content-around">
-                <div class="button rounded col-sm-12 col-md-12">
+            <div class="d-flex flex-row flex-md-column w-100  justify-content-around">
+                <div class="button rounded col-sm-3">
                     <div :class="{menu: true, 'p-3 my-1': true, rounded: true, clicked: index === 0}" @click="() => clicked(0)">
                         <img class="img-fluid" src="~/assets/img/education.svg" height="80px" alt="Teaching">
                         <div class="mt-2">Teaching</div>
                     </div>
                 </div>
-                <div class="button rounded col-sm-12 col-md-12">
+                <div class="button rounded col-sm-3">
                     <div :class="{menu: true, 'p-3 mb-1': true, rounded: true, clicked: index === 1}" @click="() => clicked(1)">
                         <img class="img-fluid" src="~/assets/img/work.svg" height="80px" alt="Teaching">
                         <div class="mt-2">
@@ -16,7 +16,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="button rounded col-sm-12 col-md-12">
+                <div class="button rounded col-sm-3">
                     <div :class="{menu: true, 'p-3': true, rounded: true, clicked: index === 2}" @click="() => clicked(2)">
                         <img class="img-fluid" src="~/assets/img/executive.svg" height="80px" alt="Teaching">
                         <div class="mt-2">
@@ -27,8 +27,8 @@
             </div>
             <!-- <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
         </div>
-        <div class="left-image col-sm-9 col-md-9">
-            <div class="work card-text">
+        <div class="left-image col-sm-12 col-md-9">
+            <div class="work">
                 <NewTimeline :items="Records" />
             </div>
         </div>
@@ -74,8 +74,8 @@ export default {
         display: flex;
         flex: auto;
         flex-direction: column;
-        max-height: 80vh;
         overflow-y: auto;
+        max-height: 80vh;
     }
     .menu {
         display: flex;
@@ -109,7 +109,7 @@ export default {
         justify-content: center;
         align-items: flex-end;
         min-width: 120px;
-        width: fit-content;
+        /* width: fit-content; */
         background-color: transparent;
     }
 </style>
