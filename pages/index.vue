@@ -36,8 +36,8 @@ export default {
             {id: 'Projects',  name: 'Projects and Research', active: false},
             {id: 'Skills',  name: 'Skills', active: false},
             {id: 'Awards',  name: 'Awards', active: false},
-            {id: 'News',  name: 'News', active: false},
-            {id: 'Contact',  name: 'Contact', active: false},
+            // {id: 'News',  name: 'News', active: false},
+            // {id: 'Contact',  name: 'Contact', active: false},
         ];
         return {
             menus,

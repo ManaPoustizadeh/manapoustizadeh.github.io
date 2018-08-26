@@ -686,6 +686,29 @@
             "value": "Mana Poustizadeh",
             "url": "http://ceit.aut.ac.ir/~9331030"
         }
+    ],
+    "Story": [
+        {
+        "id": 1,
+        "text": "As a teenager, I loved reading and writing stories, studying mathematics and playing some sports. So I can summarize my teenage years in these activities and of course, being a potterhead!"
+      },
+      {
+        "id": 2,
+        "text": "My passion for math, electronics and basic things I knew about programming led me to a Computer Engineering BSc. Through these four years, I tried to extend my experiences in various zones. I gained programming skills, teaching and some research experience while studying as an undergrad student."
+      },
+      {
+        "id": 3,
+        "text": " I was chosen as a member of Student Scientific Chapter of our faculty, in which I was titled as the Head of Financial Affairs. During this year, I learned a lot about the procedure of holding different events, its requirements, managing the budget of events and the most important one, teamwork."
+      },
+      {
+        "id": 4,
+        "text": "In my third year of studies, I came across projects about computer graphics and that was the time I knew in what field I'm gonna continue my studies. I had finally found a way to game design and development which I've always loved, but couldn't totally pursue in my country. I'm currently studying about game design and game user research and definitely enjoying it ^_^"
+      },
+      {
+        "id": 5,
+        "type": "ps",
+        "text": "P.S: In case of being locked up behind problems just cast alohomora!"
+      }
     ]
 }
 
