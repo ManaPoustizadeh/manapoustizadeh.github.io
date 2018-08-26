@@ -99,7 +99,7 @@ export default {
     .third-image {
         top: 200px;
         left: 8%;
-        transform: rotate(90deg);
+        /* transform: rotate(90deg); */
     }
     .right-image {
         display: flex;
