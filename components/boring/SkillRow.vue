@@ -53,9 +53,6 @@ export default {
 }
 </script>
 <style scoped>
-    .swiper-parent {
-        width: 90vw;
-    }
     .card {
         min-width: 200px;
         height: 200px;

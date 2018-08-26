@@ -1,5 +1,8 @@
 <template>
     <b-card :title="title"
+          :img-src="'~/assets/img/'+logo"
+          :img-alt="title"
+          img-top
           tag="article"
           class="mx-1 skill-card">
     <p class="card-text">
@@ -21,7 +24,6 @@ export default {
 <style scoped>
     .skill-card {
         min-width: 200px;
-        min-height: 200px;
     }
 </style>
 

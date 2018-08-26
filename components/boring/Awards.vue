@@ -2,7 +2,7 @@
     <div class="container py-2">
         <h1 class="mb-2 justify-self-left text-left">Awards</h1>
         <hr class="horizontal-line mb-3">
-        <div class="d-flex flex-column award justify-content-center h-100">
+        <div class="d-flex flex-column award justify-content-center">
             <div class="my-1" v-for="award in awards" :key="award.id">
                 &#127942;
                 <span v-html="award.title"></span>,

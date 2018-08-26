@@ -244,15 +244,24 @@
     "Projects": [
         {
             "id": 1,
+            "title": "Amirkabir Movie Database Website",
+            "location": "Amirkabir University of Technology (Tehran Polytechnic)– A.U.T ",
+            "duration": "May 2017 - Jun 2017",
+            "description": "As the course project of Internet Engineering course, the front-end was designed using Vue and Nuxt and the back-end was made out of Node.js framework, Hapi.",
+            "logo": "https://www.seeklogo.net/wp-content/uploads/2015/09/nodejs-logo-vector-download.jpg",
+            "link": ""
+        },
+        {
+            "id": 2,
             "title": "Image Template Matching using CUDA and OpenMP",
             "location": "Amirkabir University of Technology (Tehran Polytechnic)– A.U.T ",
             "duration": "July 2018",
             "description": "As final project for Multicore Programming course ",
             "logo": "https://developer.nvidia.com/sites/default/files/akamai/cuda/images/product_logos/NV_CUDA_wider.jpg",
-            "link": ""
+            "link": "https://github.com/ManaPoustizadeh/template-matching"
         },
         {
-            "id": 2,
+            "id": 3,
             "title": "Creating a scene using 3D coordinate system",
             "location": "Amirkabir University of Technology (Tehran Polytechnic)– A.U.T ",
             "duration": "March 2018",
@@ -261,21 +270,66 @@
             "link": ""
         },
         {
-            "id": 3,
+            "id": 4,
             "title": "Amirkabir Buffet (AUT Diner)",
             "location": "Amirkabir University of Technology (Tehran Polytechnic)– A.U.T ",
             "duration": "Apr 2017 – Sep 2017",
             "description": "Designing a website, mobile-app for the university cafeteria using Node.js and Vue and Nuxt ",
             "logo": "https://casual-effects.com/g3d/G3D10/doc-files/G3D.jpg",
-            "link": ""
+            "link": "https://www.dropbox.com/s/useaev5wo9ltsm9/Buffet.zip?dl=0"
         },
         {
-            "id": 4,
+            "id": 5,
             "title": "Reading and writing on SDcard using ATMEGA16 ",
             "location": "Amirkabir University of Technology (Tehran Polytechnic)– A.U.T ",
             "duration": "May 2017 – Jun 2017",
             "description": "Implemented using Proteus",
             "logo": "https://cdn.mikroe.com/img/compilers/mikroc/avr/default/overview/atmel-logo-partners.png",
+            "link": "https://github.com/ManaPoustizadeh/template-matching"
+        },
+        {
+            "id": 6,
+            "title": "FSM implementation on Zynq board",
+            "location": "Amirkabir University of Technology (Tehran Polytechnic)– A.U.T ",
+            "duration": "May 2017 – Jun 2017",
+            "description": "Implemented using Xilinx Vivado",
+            "logo": "https://www.doulos.com/images/logos/vivado_logo.jpg",
+            "link": ""
+        },
+        {
+            "id": 7,
+            "title": "Design of a Light, heat and motion sensor module for IoT purposes using Microblaze core and Spartan FPGA co-design ",
+            "location": "Amirkabir University of Technology (Tehran Polytechnic)– A.U.T ",
+            "duration": "Oct 2016 – Dec 2016",
+            "description": "Course Project of Computer Aided Digital System Design",
+            "logo": "https://www.logolynx.com/images/logolynx/1e/1eb62cbcec56a66700a79a32ef1bde0b.jpeg",
+            "link": ""
+        },
+        {
+            "id": 8,
+            "title": "Implementing SRAM and memory address decoder using HSPICE ",
+            "location": "Amirkabir University of Technology (Tehran Polytechnic)– A.U.T ",
+            "duration": "Dec 2016",
+            "description": "Course Project of Digital Electronics",
+            "logo": "http://files-store.ir/wp-content/uploads/edd/2018/07/hspice-2.jpg",
+            "link": ""
+        },
+        {
+            "id": 9,
+            "title": "Adding system call and scheduling policies to xv6 operating system ",
+            "location": "Amirkabir University of Technology (Tehran Polytechnic)– A.U.T ",
+            "duration": "Oct 2016 – Dec 2016",
+            "description": "Course Project of Operating System Course",
+            "logo": "https://images.vexels.com/media/users/3/141382/isolated/preview/c7a747215c71c95b99cc87db1c211d04-unix-logo-by-vexels.png",
+            "link": ""
+        },
+        {
+            "id": 10,
+            "title": "Designing a MIPS Base Computer",
+            "location": "Amirkabir University of Technology (Tehran Polytechnic)– A.U.T ",
+            "duration": "Oct 2016 – Dec 2016",
+            "description": "Course Project of Computer Architecture Course. Contains RAM, ALU, CU Designed using VHDL language, programmed on FPGA boards ",
+            "logo": "https://www.logolynx.com/images/logolynx/1e/1eb62cbcec56a66700a79a32ef1bde0b.jpeg",
             "link": ""
         }
     ],

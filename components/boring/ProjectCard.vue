@@ -11,7 +11,8 @@
                 <!-- <p v-if="description">{{describtion}}</p> -->
                 <!-- <b-btn :aria-controls="title" @click="toggle" variant="primary">Show more</b-btn> -->
                 <b-collapse v-model="isOpen" :id="title">
-                    <p v-if="description">{{description}}</p>  
+                    <p v-if="description">{{description}}</p> 
+                    <a v-if="link" :href="link" target="_blank">Project Link</a>
                 </b-collapse>
                 <span class="more">
                     <fa icon="chevron-down" size="2x"></fa>
@@ -79,6 +80,10 @@ export default {
     }
     .project-card {
         cursor: pointer;
+    }
+    a {
+        color: white;
+        font-size: 1rem;
     }
 </style>
 
