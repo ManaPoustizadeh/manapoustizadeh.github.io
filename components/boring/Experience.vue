@@ -29,19 +29,16 @@
         </div>
         <div class="left-image col-sm-9 col-md-9">
             <div class="work card-text">
-                <!-- <Timeline :educationRecords="teachingRecords" /> -->
                 <NewTimeline :items="Records" />
             </div>
         </div>
     </div>
 </template>
 <script>
-import Timeline from '~/components/Timeline';
 import NewTimeline from '~/components/boring/NewTimeline';
 import records from '~/static/records.json';
 export default {
     components: {
-        Timeline,
         NewTimeline,
     },
     data() {
