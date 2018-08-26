@@ -37,7 +37,8 @@ export default {
         align-items: center;
     }
     .mother-row {
-        min-height: 78vh;
+        max-height: 78vh;
+        overflow-y: auto;
     }
     .left-image {
         display: flex;
