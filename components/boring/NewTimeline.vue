@@ -56,7 +56,7 @@ body {
 .timeline {
   margin: 4em auto;
   position: relative;
-  max-width: 46em;
+  left: -60px;
   list-style: none;
   
   &:before {
@@ -92,7 +92,7 @@ body {
   position: relative;
   top: -1.875em;
   left: 4em;
-  width: 80%;
+  // width: 80%;
   
   h3 {
     font-size: 1.75em;
