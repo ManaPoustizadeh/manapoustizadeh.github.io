@@ -3,7 +3,7 @@
         <div v-swiper:mySwiper="swiperOption">
         <div class="swiper-wrapper">
         <div class="swiper-slide rounded" v-for="(menu,index) in menus" :key="menu.name">
-            <div :class="{menu: true, 'p-3': true, rounded: true, clicked: menu.active}" @click="() => clicked(index)">{{menu.name}}</div>
+            <div role="button" :class="{menu: true, 'p-3': true, rounded: true, clicked: menu.active}" @click="() => clicked(index)">{{menu.name}}</div>
         </div>
         </div>
         <div class="swiper-button-prev swiper-button-white" slot="button-prev"></div>
@@ -41,6 +41,7 @@ export default {
 </script>
 <style lang="scss" scoped>
     .menu {
+        user-select: none;
         display: flex;
         justify-content: center;
         align-items: center;
