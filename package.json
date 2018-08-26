@@ -1,8 +1,8 @@
 {
-  "name": "rajabiseraji",
+  "name": "manapoustizadeh",
   "version": "1.0.0",
-  "description": "Rajabiseraji Homepage",
-  "author": "rajabiseraji@outlook.com",
+  "description": "Mana Poustizadeh Homepage",
+  "author": "mana0pst@gmail.com",
   "private": true,
   "scripts": {
     "dev": "nuxt",

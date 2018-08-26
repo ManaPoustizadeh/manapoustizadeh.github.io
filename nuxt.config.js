@@ -10,7 +10,7 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'rajabiseraji',
+    title: 'Mana Poustizadeh Homepage',
     head: {
       link: [
         {
