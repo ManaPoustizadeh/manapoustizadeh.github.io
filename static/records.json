@@ -64,6 +64,15 @@
           "secondJob": "Back-end Developer",
           "secondJobDesc": "I used to develop the back-end for some of our projects using Node.js and Hapi. I mastered working with MongoDB database during this time and also learned the fundamaentals of creating a REST API using Node.js.",
           "end": "2018"
+        },
+		{
+          "title": "Quiz of Kings©",
+          "titleDescription": "Quality Assurance Agent",
+          "timespan": "Jan 2015 - Jun 2015",
+          "location": "Quiz of Kings ©",
+          "firstJob": "Game Quality Control",
+          "firstJobDesc": "The game is currently the greatest mobile game from Iran .My job was to test the game, find bugs and make sure everything was running ok!",
+          "end": "2018"
         }
     ],
     "Executive": [
