@@ -1,0 +1,34 @@
+{
+  "name": "manapoustizadeh",
+  "version": "1.0.0",
+  "description": "Mana Poustizadeh Homepage",
+  "author": "mana0pst@gmail.com",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint",
+    "deploy": "push-dir --dir=dist --branch=master --cleanup"
+  },
+  "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^5.2.0",
+    "@fortawesome/free-solid-svg-icons": "^5.2.0",
+    "bootstrap-vue": "^2.0.0-rc.11",
+    "nuxt": "^1.0.0",
+    "nuxt-fontawesome": "^0.3.0",
+    "vue-awesome-swiper": "^3.1.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.15.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-vue": "^4.0.0",
+    "node-sass": "^4.9.3",
+    "push-dir": "^0.4.1",
+    "sass-loader": "^7.1.0"
+  }
+}
