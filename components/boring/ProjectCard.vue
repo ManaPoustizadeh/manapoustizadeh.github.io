@@ -14,7 +14,7 @@
                     <p v-if="description">{{description}}</p> 
                     <a v-if="link" :href="link" target="_blank">Project Link</a>
                 </b-collapse>
-                <span class="more">
+                <span class="more" v-if="!isOpen">
                     <fa icon="chevron-down" size="2x"></fa>
                 </span>
             </div>
