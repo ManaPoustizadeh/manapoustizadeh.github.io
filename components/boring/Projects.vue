@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <h1 class="mb-2">Projects</h1>
+        <h1 class="mb-2">Projects and Research</h1>
         <hr class="horizontal-line mb-3">
         <ProjectCard v-for="project in projects"
                     :supervisor="project.supervisor" 
