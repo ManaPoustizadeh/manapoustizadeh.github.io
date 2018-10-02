@@ -3,6 +3,16 @@
     "Overview": "I am a Computer Engineering Student, a passionate web developer and an enthusiast in game design and development. I also adore the concept of Game User Research and have been following it eversince I became aware of its existence. I'm hoping to have an academic and career future in this field and I'm highly motivated to take new challenges and projects regarding the matter.",
     "Teaching": [
         {
+            "title": "RA",
+            "titleDescription": "Research Assistant",
+            "timespan": "Jun 2018 - Currently",
+            "location": "Amirkabir University of Technology (Tehran Polytechnic)",
+            "course": "Low Power Digital Systems Lab",
+            "prof": "Dr . Mahmoud Momtazpour - Assistant Professor",
+            "description": "I'm currently working there on my project about implementing an optimized Ray Tracing solution on dedicated GPUs.",
+            "end": "2018"
+        },
+        {
             "title": "TA",
             "titleDescription": "Teaching Assistant",
             "timespan": "Jan 2018 - Jul 2018",
