@@ -61,6 +61,13 @@
           "location": "Black Cube Games ©",
           "firstJob": "Game Developer Intern (Unity Developer)",
           "firstJobDesc": "I've been working with this team of talented people as an intern since September of this year. I'm currently in the process of learning Unity game engine in order to develop large-scale games. I'm working towards being added to their team of core game developers and work their upcoming project, Tales of Bistun.",
+          "links": [
+              {
+                "id": 1, 
+                "url": "http://www.blackcubegames.com/",
+                "text": "Company's Website"
+              }
+          ],
           "end": "2018"
         },
         {
@@ -72,6 +79,13 @@
           "firstJobDesc": "I used to develop a number of Progressive Web Apps (PWA) for the company using Vue.js and Nuxt. During this time I mastered basic technologies such as HTML5, CSS3 and JavaScript; as well some advanced frameworks like Vue.js and Nuxt.",
           "secondJob": "Back-end Developer",
           "secondJobDesc": "I used to develop the back-end for some of our projects using Node.js and Hapi. I mastered working with MongoDB database during this time and also learned the fundamaentals of creating a REST API using Node.js.",
+          "links": [
+              {
+                  "id": 1,
+                  "url": "https://github.com/fandogh",
+                  "text": "Our Company's Github Organization"
+              }
+          ],
           "end": "2018"
         },
 		{
@@ -81,6 +95,18 @@
           "location": "Quiz of Kings ©",
           "firstJob": "Game Quality Control",
           "firstJobDesc": "The game is currently the greatest mobile game from Iran .My job was to test the game, find bugs and make sure everything was running ok!",
+          "links": [
+                {
+                    "id": 1,
+                    "url": "https://quizofkings.com/",
+                    "text": "Company's Website"
+                },
+                {
+                    "id": 2,
+                    "url": "https://play.google.com/store/apps/details?id=co.palang.QuizOfKingss&hl=en_US",
+                    "text": "Quiz of Kings App in Play Store"
+                }
+            ],
           "end": "2018"
         }
     ],
