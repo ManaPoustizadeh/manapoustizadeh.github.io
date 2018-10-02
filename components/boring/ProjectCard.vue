@@ -8,6 +8,7 @@
                 <h6>{{title}}</h6>
                 <div class="mt-0">{{location}}</div>
                 <div>{{duration}}</div>
+                <div v-if="supervisor" class="my-1">Supervisor: <strong>{{supervisor}}</strong></div>
                 <!-- <p v-if="description">{{describtion}}</p> -->
                 <!-- <b-btn :aria-controls="title" @click="toggle" variant="primary">Show more</b-btn> -->
                 <b-collapse v-model="isOpen" :id="title">
@@ -31,6 +32,7 @@ export default {
         description: String,
         logo: String,
         link: String,
+        supervisor: String
     }, 
     data() {
         return {

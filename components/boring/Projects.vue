@@ -2,7 +2,8 @@
     <div class="container">
         <h1 class="mb-2">Projects</h1>
         <hr class="horizontal-line mb-3">
-        <ProjectCard v-for="project in projects" 
+        <ProjectCard v-for="project in projects"
+                    :supervisor="project.supervisor" 
                     :key="project.id"
                     :title="project.title"
                     :location="project.location"
