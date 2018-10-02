@@ -2,7 +2,7 @@
     <div class="row py-md-2 py-sm-0">
             <div class="left-text text-md-left text-sm-center col-md-6 col-sm-12 p-3">
                 <h2>{{name}}</h2>
-                <p class="font-wight-light text-quite-light">
+                <p class="font-wight-light text-quite-light overview-text">
                     {{overview}}
                 </p>
                 <div class="icons">
@@ -71,6 +71,9 @@ export default {
 }
 </script>
 <style scoped>
+    .overview-text {
+        text-align: justify;
+    }
     .text-quite-light {
         color: hsla(0,0%,100%,.7);
     }
