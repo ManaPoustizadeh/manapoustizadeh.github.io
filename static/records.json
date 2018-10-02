@@ -293,7 +293,7 @@
             "duration": "Jan 2017 - Currently",
             "supervisor": "Dr. Mahmud Momtazpour",
             "description": "In this research we're trying to achieve high performance computing for Tay Tracing algorithms in Dedicated GPUs. We are going through a number of different parallel implementations of ray tracing algorithms on a wide scale of GPU architectures and designs and benchmarking each one of them to try and achieve minimum latency coupled with high image precision.",
-            "logo": "https://www.seeklogo.net/wp-content/uploads/2015/09/nodejs-logo-vector-download.jpg",
+            "logo": "https://developer.nvidia.com/sites/default/files/akamai/cuda/images/product_logos/NV_CUDA_wider.jpg",
             "link": ""
         },
         {
