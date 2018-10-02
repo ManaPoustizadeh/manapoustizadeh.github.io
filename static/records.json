@@ -78,7 +78,7 @@
           "firstJob": "Front-end Developer",
           "firstJobDesc": "I used to develop a number of Progressive Web Apps (PWA) for the company using Vue.js and Nuxt. During this time I mastered basic technologies such as HTML5, CSS3 and JavaScript; as well some advanced frameworks like Vue.js and Nuxt.",
           "secondJob": "Back-end Developer",
-          "secondJobDesc": "I used to develop the back-end for some of our projects using Node.js and Hapi. I mastered working with MongoDB database during this time and also learned the fundamaentals of creating a REST API using Node.js.",
+          "secondJobDesc": "I used to develop the back-end for some of our projects using Node.js and Hapi. I mastered working with MongoDB database during this time and also learned the fundamentals  of creating a REST API using Node.js.",
           "links": [
               {
                   "id": 1,
@@ -117,7 +117,7 @@
             "timespan": "Dec 2015 - Dec 2016",
             "location": "Student Scientific Chapter of Faculty of Computer Engineering and IT of Amirkabir University of Technology",
             "firstJob": "Responsibilities",
-            "firstJobDesc": "My responsibilites included keeping account of different financial transactions that the Student Scientific Chapter made, reporting them to the Head Office of Student Assosications and also making proposals to attract sponsors for the wide variety of events, held by our chapter.",
+            "firstJobDesc": "My responsibilites  included keeping account of different financial transactions that the Student Scientific Chapter made, reporting them to the Head Office of Student Associations and also making proposals to attract sponsors for the wide variety of events, held by our chapter.",
             "links": [
                 {
                     "id": 1,
@@ -139,7 +139,7 @@
                     "id": 4,
                     "linkText": "Amirkabir Student Associations Alumni",
                     "linkURL": "http://sao-aut.ir/bashgah/#1448655880715-fdb9d431-d8db",
-                    "linkDesc": "You can see an awefull photo of me here and also this is only available in persian, again thanks to the university's aweful maintenance"
+                    "linkDesc": "You can see an awefull photo of me here and also this is only available in Persian, again thanks to the university's awful maintenance"
                 }
             ],
             "end": "2018"
@@ -242,7 +242,7 @@
           "timespan": "May 2016",
           "location": "8<sup>th</sup> National Amirkabir Linux Festival",
           "firstJob": "Event Staff",
-          "firstJobDesc": "There was a bunch of different tasks I did as a staff member of the festival, including preperations of the classes, coordination with lecturers and check-in of the registrants.",
+          "firstJobDesc": "There was a bunch of different tasks I did as a staff member of the festival, including preparations of the classes, coordination with lecturers and check-in of the registrants.",
           "end": "2018",
           "links": [
             {
@@ -286,6 +286,15 @@
         }
     ],
     "Projects": [
+        {
+            "id": 16,
+            "title": "Optimization of Ray Tracing Algorithms on Dedicated GPUs in CUDA",
+            "location": "Amirkabir University of Technology (Tehran Polytechnic)– A.U.T ",
+            "duration": "Jan 2017 - Currently",
+            "description": "In this research we're trying to achieve high performance computing for Tay Tracing algorithms in Dedicated GPUs. We are going through a number of different parallel implementations of ray tracing algorithms on a wide scale of GPU architectures and designs and benchmarking each one of them to try and achieve minimum latency coupled with high image precision",
+            "logo": "https://www.seeklogo.net/wp-content/uploads/2015/09/nodejs-logo-vector-download.jpg",
+            "link": ""
+        },
         {
             "id": 1,
             "title": "Amirkabir Movie Database Website",
