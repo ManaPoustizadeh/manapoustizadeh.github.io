@@ -5,7 +5,7 @@
                 <div class="button rounded col-sm-3">
                     <div :class="{menu: true, 'p-3 my-1': true, rounded: true, clicked: index === 0}" @click="() => clicked(0)">
                         <img class="img-fluid" src="~/assets/img/education.svg" height="80px" alt="Teaching">
-                        <div class="mt-2">Teaching</div>
+                        <div class="mt-2">Academic (TA, RA)</div>
                     </div>
                 </div>
                 <div class="button rounded col-sm-3">
