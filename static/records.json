@@ -64,8 +64,8 @@
           "links": [
               {
                 "id": 1, 
-                "url": "http://www.blackcubegames.com/",
-                "text": "Company's Website"
+                "linkURL": "http://www.blackcubegames.com/",
+                "linkText": "Company's Website"
               }
           ],
           "end": "2018"
@@ -82,8 +82,8 @@
           "links": [
               {
                   "id": 1,
-                  "url": "https://github.com/fandogh",
-                  "text": "Our Company's Github Organization"
+                  "linkURL": "https://github.com/fandogh",
+                  "linkText": "Our Company's Github Organization"
               }
           ],
           "end": "2018"
@@ -98,13 +98,13 @@
           "links": [
                 {
                     "id": 1,
-                    "url": "https://quizofkings.com/",
-                    "text": "Company's Website"
+                    "linkURL": "https://quizofkings.com/",
+                    "linkText": "Company's Website"
                 },
                 {
                     "id": 2,
-                    "url": "https://play.google.com/store/apps/details?id=co.palang.QuizOfKingss&hl=en_US",
-                    "text": "Quiz of Kings App in Play Store"
+                    "linkURL": "https://play.google.com/store/apps/details?id=co.palang.QuizOfKingss&hl=en_US",
+                    "linkText": "Quiz of Kings App in Play Store"
                 }
             ],
           "end": "2018"
