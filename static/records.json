@@ -10,6 +10,13 @@
             "course": "Low Power Digital Systems Lab",
             "prof": "Dr . Mahmoud Momtazpour - Assistant Professor",
             "description": "I'm currently working there on my project about implementing an optimized Ray Tracing solution on dedicated GPUs.",
+            "links": [
+                {
+                    "id": 1, 
+                    "linkText": "Dr. Momtazpour's Lab Page Members",
+                    "linkURL": "http://ceit.aut.ac.ir/~lpds/people/"
+                }
+            ],
             "end": "2018"
         },
         {
