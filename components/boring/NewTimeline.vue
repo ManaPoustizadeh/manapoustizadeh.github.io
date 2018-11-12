@@ -7,7 +7,11 @@
         <h3>{{item.titleDescription}}</h3>
         <h4 v-html="item.location"></h4>
         <p v-if="item.course">
-          <strong>{{item.course}} | <a v-if="item.profLink" :href="item.profLink" target="_blannk">{{item.prof}}</a></strong><br>
+          <strong>
+            {{item.course}}  
+            <a v-if="item.profLink" :href="item.profLink" target="_blannk">| {{item.prof}}</a>
+            <span v-else-if="item.prof">| {{item.prof}}</span>
+          </strong><br>
           {{item.description}}
         </p>
         <p v-else><strong>{{item.firstJob}}</strong><br>{{item.firstJobDesc}}</p>
