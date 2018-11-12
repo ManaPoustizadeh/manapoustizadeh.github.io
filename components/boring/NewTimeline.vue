@@ -6,7 +6,10 @@
         <p class="timeline-event-thumbnail">{{item.timespan}}</p>
         <h3>{{item.titleDescription}}</h3>
         <h4 v-html="item.location"></h4>
-        <p v-if="item.course"><strong>{{item.course}} | {{item.prof}}</strong><br>{{item.description}}</p>
+        <p v-if="item.course">
+          <strong>{{item.course}} | <a v-if="item.profLink" :href="item.profLink" target="_blannk">{{item.prof}}</a></strong><br>
+          {{item.description}}
+        </p>
         <p v-else><strong>{{item.firstJob}}</strong><br>{{item.firstJobDesc}}</p>
         <p v-if="item.secondJob"><strong>{{item.secondJob}}</strong><br>{{item.secondJobDesc}}</p>
         <strong v-if="item.links">Useful Links:<br/></strong>
@@ -17,7 +20,6 @@
           </div>
           <hr v-if="index+1 !== item.links.length" class="horizontal-line">
         </div>
-        <!-- <p><strong>Projektmanagement mit Scrum</strong><br>Ständiges Verbessern des agilen Entwicklungsprozesses beispielsweise durch Grunt, Yeoman, GIT, JIRA und BrowserStack.</p> -->
       </div>
     </li>
 </ul>  
