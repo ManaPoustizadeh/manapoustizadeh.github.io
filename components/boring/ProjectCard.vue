@@ -1,23 +1,21 @@
 <template>
     <div class="card project-card bg-primary shadow-sm mb-2">
-        <div @click="toggle" class="row card-row">
-            <div class="col-xs-3 bg-white rounded-left p-3 d-flex justify-content-center align-items-center">
+        <div class="row card-row">
+            <div class="col-xs-12 col-md-2 w-100 bg-white rounded p-3 d-flex justify-content-center align-items-center">
                 <b-img class="rounded img-fluid logo" :src="logo" :alt="title" />
             </div>
-            <div class="col description p-2">
-                <h6>{{title}}</h6>
-                <div class="mt-0">{{location}}</div>
-                <div>{{duration}}</div>
-                <div v-if="supervisor" class="my-1">Supervisor: <strong>{{supervisor}}</strong></div>
-                <!-- <p v-if="description">{{describtion}}</p> -->
-                <!-- <b-btn :aria-controls="title" @click="toggle" variant="primary">Show more</b-btn> -->
-                <b-collapse v-model="isOpen" :id="title">
-                    <p v-if="description">{{description}}</p> 
-                    <a v-if="link" :href="link" target="_blank">Project Link</a>
-                </b-collapse>
-                <span class="more" v-if="!isOpen">
+            <div class="col-xs-12 col-md-10 description p-2">
+                <h5>{{title}}</h5>
+                <h6 class="mt-0">{{location}}</h6>
+                <h6>{{duration}}</h6>
+                <h6 v-if="supervisor" class="my-1">Supervisor: <strong>{{supervisor}}</strong></h6>
+                <!-- <b-collapse v-model="isOpen" :id="title"> -->
+                <p v-if="description">{{description}}</p> 
+                <a v-if="link" :href="link" target="_blank">Project Link</a>
+                <!-- </b-collapse> -->
+                <!-- <span class="more" v-if="!isOpen">
                     <fa icon="chevron-down" size="2x"></fa>
-                </span>
+                </span> -->
             </div>
         </div>
     </div>
@@ -81,11 +79,14 @@ export default {
         font-size: 0.6rem
     }
     .project-card {
-        cursor: pointer;
+        /* cursor: pointer; */
     }
     a {
         color: white;
         font-size: 1rem;
+    }
+    h6 {
+        font-weight: 100;
     }
 </style>
 
