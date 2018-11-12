@@ -9,7 +9,7 @@
         <p v-if="item.course">
           <strong>
             {{item.course}}  
-            <a v-if="item.profLink" :href="item.profLink" target="_blank">| {{item.prof}}</a>
+            <a v-if="item.profLink" :href="item.profLink"  target="_blank">| {{item.prof}}</a>
             <span v-else-if="item.prof">| {{item.prof}}</span>
           </strong><br>
           {{item.description}}
