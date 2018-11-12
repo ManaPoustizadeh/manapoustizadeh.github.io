@@ -27,6 +27,7 @@
             "location": "Amirkabir University of Technology (Tehran Polytechnic)",
             "course": "Internet Engineering",
             "prof": "Dr . Bahador Bakhshi - Assistant Professor",
+            "profLink": "http://ceit.aut.ac.ir/~bakhshis/",
             "description": "",
             "end": "2018"
         },
@@ -37,6 +38,7 @@
             "location": "Amirkabir University of Technology (Tehran Polytechnic)",
             "course": "Computer Aided Digital System Design",
             "prof": "Prof. Morteza Saheb Zamani - Professor",
+            "profLink": "http://www.aut.ac.ir/szamani/",
             "description": "",
             "end": "2017"
         },
@@ -47,6 +49,7 @@
             "location": "Amirkabir University of Technology (Tehran Polytechnic)",
             "course": "Computer Architecture",
             "prof": "Dr. Saeed Shiry – Associate professor",
+            "profLink": "http://www.aut.ac.ir/official/main.asp?uid=shiry",
             "description": "",
             "end": "2017"
         },
