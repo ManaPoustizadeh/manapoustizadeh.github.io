@@ -9,8 +9,9 @@
         <p v-if="item.course">
           <strong>
             {{item.course}}  
-            <a v-if="item.profLink" :href="item.profLink"  target="_blank">| {{item.prof}}</a>
-            <span v-else-if="item.prof">| {{item.prof}}</span>
+            <span v-if="item.profLink"> | </span>
+            <a v-if="item.profLink" :href="item.profLink" class="prof-link"  target="_blank">{{item.prof}}</a>
+            <span v-else-if="item.prof">{{item.prof}}</span>
           </strong><br>
           {{item.description}}
         </p>
@@ -166,6 +167,9 @@ a:hover {
     margin-bottom: 0.5rem;
     width: 40px;
     margin-left: 0;
+}
+.prof-link {
+  text-decoration: underline;
 }
 </style>
 
