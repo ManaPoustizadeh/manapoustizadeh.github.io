@@ -15,6 +15,7 @@ import Experience from '~/components/boring/Experience';
 import Projects from '~/components/boring/Projects';
 import Skills from '~/components/boring/Skills';
 import Awards from '~/components/boring/Awards';
+import Disclaimer from '~/components/boring/Disclaimer';
 export default {
     layout: 'boring',
     components: {
@@ -26,6 +27,7 @@ export default {
         Projects,
         Skills,
         Awards,
+        Disclaimer
     },
     data() {
         const menus = [
@@ -36,7 +38,7 @@ export default {
             {id: 'Projects',  name: 'Projects and Research', active: false},
             {id: 'Skills',  name: 'Skills', active: false},
             {id: 'Awards',  name: 'Awards', active: false},
-            // {id: 'News',  name: 'News', active: false},
+            {id: 'Disclaimer',  name: 'Disclaimer', active: false},
             // {id: 'Contact',  name: 'Contact', active: false},
         ];
         return {
