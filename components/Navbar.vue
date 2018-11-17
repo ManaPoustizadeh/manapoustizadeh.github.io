@@ -4,7 +4,7 @@
       <!-- <b-navbar-toggle target="nav_collapse"></b-navbar-toggle> -->
       <b-navbar-brand href="#">Mana Poustizadeh</b-navbar-brand>
       <b-navbar-nav class="ml-auto">
-        <b-nav-item href="/CV.zip">
+        <b-nav-item href="https://drive.google.com/open?id=1LcYpJo5zONRlUKlrmNzRVW_5hUwcBZTA">
           <b-button class="bg-light border-light">
             CV
           </b-button>
